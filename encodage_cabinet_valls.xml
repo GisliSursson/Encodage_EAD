@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead SYSTEM "ead.dtd">
+<!-- DTD au même niveau que l'XML dans l'arborescence -->
+<ead>
+    <!-- ********************************************** Début de l'IR ********************************************** -->
+    <eadheader>
+        <eadid/>
+
+        <filedesc>
+            <titlestmt>
+                
+                <titleproper>REPERTOIRE<lb/> COTE CAC : 20180515<lb/>CABINET DE MANUEL VALLS
+                    Premier ministre DE 2014 Ā 2016.</titleproper>
+                
+                <subtitle>DOSSIERS DE Bernard Salzmann ET DE MAUD BAILLY, CONSEILLERS EN CHARGE DE
+                    L’ÉCONOMIE, DES FINANCES ET DES ENTREPRISES. 2014-2016</subtitle>
+                
+
+
+            </titlestmt>
+
+            <publicationstmt>
+                <!--mention de publication, avec l'éditeur, son adresse et la date-->
+                <publisher> ARCHIVES NATIONALES<lb/> SECTION DES MISSIONS<lb/> CENTRE DES ARCHIVES
+                    CONTEMPORAINES </publisher>
+                <address>
+                    <addressline>59 ue Guynemer 93383 Pierrefitte-sur-Seine</addressline>
+                </address>
+                <date normal="2018">2018</date>
+            </publicationstmt>
+        </filedesc>
+
+
+
+        <profiledesc>
+            <!-- informations sur le fichier EAD -->
+
+            <creation>Cet instrument de recherche a été encodé en XML par Victor Meynaud conformément à la DTD EAD
+                (version 2002) dans le cadre du devoir d'évaluation du cours de M. Verdese à l'Ecole
+                nationale des chartes en <date normal="2021">2021</date>.</creation>
+
+           
+            <langusage>Instrument de recherche rédigé en <language langcode="fre"
+                    >français.</language></langusage>
+         
+            <descrules>Ce répertoire numérique est rédigé conformément à la norme ISAD
+                (G).</descrules>
+           
+        </profiledesc>
+
+    </eadheader>
+
+
+
+    <frontmatter>
+        <!-- Informations liminaires des versions papier (introduction...) -->
+        <div>
+            <head>Présentation du contenu</head>
+            <p>Ce versement résulte de la fusion de deux versements, réalisés pour le premier par
+                    <persname normal="Salzmann, Bernard">Bernard Salzmann</persname> en août 2015 et
+                pour le second en janvier 2017, par Frédéric Brédillot, conseiller pour l’économie,
+                les finances et les entreprises au cabinet du Premier ministre, <persname normal="Cazeneuve, Bernard">Bernard
+                    Cazeneuve</persname>,mais qui regroupe en réalité les archives de <persname
+                    normal="Bailly, Maud">Maud Bailly</persname>, conseillère économie, finances,
+                entreprises au cabinet du Premier ministre, <persname normal="Valls, Manuel">Manuel
+                    Valls</persname>. Ces deux versements couvrent ainsi la totalité du cabinet
+                Valls, de 2014 à 2016.</p>
+        </div>
+
+    </frontmatter>
+
+
+    <!-- ********************************************** Description archivistique ********************************************** -->
+
+    <archdesc level="fonds">
+
+
+        <!-- ****************** Eléments d'identification et description ****************** -->
+
+        <did>
+            <!-- Cotes et autre -->
+            <unitid>20180515</unitid>
+            <unitid type="cote">AN-2018-0515-1 à AN-2018-0515-11</unitid>
+            <!-- Dates standardisées selon les recommandations du dictionnaire des balises -->
+            <unitdate normal="20140101/20161231">2014-2016</unitdate>
+
+    
+            <unittitle>DOSSIERS DE <persname normal="Salzmann, Bernard">Bernard Salzmann</persname>
+                ET DE <persname normal="Bailly, Maud">Maud Bailly</persname>, CONSEILLERS EN CHARGE
+                DE L’ÉCONOMIE, DES FINANCES ET DES ENTREPRISES. 2014-2016</unittitle>
+            
+            <origination>
+                <!-- La standardisation des noms a été réalisée semi-automatiquement -->
+                <persname normal="Salzmann, Bernard">Bernard Salzmann</persname>
+                <persname normal="Bailly, Maud">Maud Bailly</persname>
+                <corpname>CABINET DE Manuel Valls, Premier ministre</corpname>
+            </origination>
+           
+            <langmaterial>Les documents sont en <language langcode="fre"
+                >français</language>.</langmaterial>
+     
+
+            <physdesc>
+                <extent>11 cartons</extent>
+                <genreform type="dimab">DIMAB</genreform>
+                <extent>soit 4 m. l.</extent>
+            </physdesc>
+
+
+            <physloc>SCN Archives nationales, site de Pierrefitte</physloc>
+            
+        </did>
+      
+
+
+        <accessrestrict>
+            
+            <p>COMMUNICABILITÉ</p>
+            <p>ART.9 : 50 ANS (PROTECTION DE LA VIE PRIVÉE) ART.1-3, 5-6, 8, 11 : 25 ANS (SECRET DES
+                DÉLIBÉRATIONS DU GOUVERNEMENT) ART. 4, 7, 10 : 50 ANS (SECRET DE LA DÉFENSE
+                NATIONALE)</p>
+            <p>Conditions d'accès</p>
+            <p>La communicabilité du versement est définie par le protocole de versement d’archives
+                signé par <persname normal="Valls, Manuel">Manuel Valls</persname>, <persname
+                    normal="Valls, Manuel">Premier ministre</persname>. Les articles 4, 7 et 10
+                comprennent des documents classifiés « confidentiel défense ».</p>
+        </accessrestrict>
+
+        <acqinfo>
+          
+            <p>Modalités d'entrée</p>
+            <p>Protocole de versement.</p>
+        </acqinfo>
+
+        <bioghist>
+            <!-- Les élements nom de personne, date, lieu et nom de personne morale semblent les plus importants pour l'exploitation automatique de ces paragraphes et les éventuelles recherches des utilisateurs. Dans la 
+            même optique, il a été décider de faire correspondre le nom de la fonction de "Premier ministre" avec la personne concernée selon l'époque. -->
+            <p><persname normal="Salzmann, Bernard">Bernard Salzmann</persname> est né le <date
+                    normal="19722911">29 novembre 1972</date> à Nancy (Meurthe-et-Moselle). Ancien
+                élève de l’<corpname>École polytechnique</corpname>, <persname
+                    normal="Salzmann, Bernard">Bernard Salzmann</persname> est diplômé d’études
+                approfondies de macroéconomie à l’<corpname>Université de Paris-I</corpname>, de
+                    l’<corpname>Institut des actuaires français (IAF)</corpname> et de
+                    l’<corpname>École nationale de la statistique et de l’administration économique
+                    (ENSAE)</corpname>. Nommé administrateur de l’<corpname>Institut national de la
+                    statistique et des études économiques (INSEE)</corpname> en <date normal="1998"
+                    >1998</date>, il débute sa carrière comme responsable des études économiques et
+                des prévisions relatives aux évolutions salariales et aux 35 heures, au sein du
+                bureau emploi et salaires, à la Direction de la prévision du <corpname>ministère de
+                    l’Économie, des finances et de l’industrie</corpname>. En <date normal="1999"
+                    >1999</date>, il devient responsable des études économiques et des prévisions
+                relatives au vieillissement, à la famille et à l’exclusion au sein du bureau des
+                transferts sociaux, au sein de la même direction. <persname
+                    normal="Salzmann, Bernard">Bernard Salzmann</persname> entre en
+                    <date>2001</date> au cabinet de <persname normal="Fabius, Laurent">Laurent
+                    Fabius</persname>, ministre de l’Économie, des finances et de l’industrie, en
+                qualité de conseiller technique pour les comptes sociaux, avant d’être nommé dès
+                    <date normal="2002">2002</date> conseiller financier adjoint à Washington
+                (États-Unis). De retour en France en <date normal="2006">2006</date>, il devient
+                chef du bureau de l’Union économique et monétaire de la Direction générale du Trésor
+                et de la politique économique, au <corpname>ministère de l’Économie, des finances et
+                    de l’emploi</corpname>. Promu administrateur hors classe en <date normal="2007"
+                    >2007</date>, <persname normal="Salzmann, Bernard">Bernard Salzmann</persname>
+                rejoint la même année la <corpname>Société générale</corpname>, tout d’abord comme
+                directeur mondial de l’audit, puis à partir de <date normal="2013">2013</date> comme
+                directeur régional <geogname>Amiens</geogname> Haute-Picardie. Il est nommé en <date normal="2014"
+                    >2014</date> conseiller économie, finances, entreprises (arrêté du <date
+                    normal="2014-04-30">30 avril 2014</date>) au cabinet du <persname
+                    normal="Valls, Manuel">Premier ministre</persname>, <persname
+                    normal="Valls, Manuel">Manuel Valls</persname>, et conserve cette fonction
+                jusqu’en juillet <date normal="2015">2015</date> (arrêté du <date normal="20150731"
+                    >31 juillet 2015</date>). Depuis septembre <date normal="2015">2015</date>,
+                    <persname normal="Salzmann, Bernard">Bernard Salzmann</persname> est directeur
+                administratif de la <corpname>Société générale</corpname>.</p>
+        </bioghist>
+
+        <bioghist>
+            <p>
+                <persname normal="Bailly, Maud">Maud Bailly</persname> est née le <date
+                    normal="19790114">14 janvier 1979</date> à <geogname>Paris</geogname>. Diplômée de l’<corpname>École
+                    normale supérieure (ENS)</corpname> et de l’<corpname>Institut d’études
+                    politiques (IEP)</corpname> de <geogname>Paris</geogname>, elle est ancienne élève de
+                    l’<corpname>École nationale d’administration</corpname> (ÉNA, promotion
+                République – <date normal="2005/2007">2005-2007</date>). Nommée inspectrice des
+                finances, elle débute en <date normal="2007">2007</date> à l’<corpname>Inspection
+                    générale des finances</corpname>. À la suite d’une formation sur le terrain aux
+                métiers du monde ferroviaire, <persname normal="Bailly, Maud">Maud Bailly</persname>
+                rejoint en 2011 la <corpname>Société nationale des chemins de fer français
+                    (SNCF)</corpname>, tout d’abord comme directrice de la gare de
+                <geogname>Paris</geogname>-Montparnasse, puis en 2014 comme directrice des trains. Elle entre en <date
+                    normal="201505">mai 2015</date> au cabinet de <persname normal="Valls, Manuel"
+                    >Manuel Valls</persname>, <persname normal="Valls, Manuel">Premier
+                    ministre</persname>, en qualité de conseillère économie, finances, entreprises
+                (arrêté du <date normal="20150504">4 mai 2015</date>) et conserve ces fonctions
+                jusqu’à la démission de <persname normal="Valls, Manuel">Manuel Valls</persname> en
+                    <date normal="201612">décembre 2016</date>. Depuis <date normal="2017"
+                    >2017</date>, <persname normal="Bailly, Maud">Maud Bailly</persname> est Chief
+                digital Officier et membre du comité exécutif d’<corpname>AccorHôtels</corpname>.
+                Elle est nommée par ailleurs membre du Conseil national du numérique en <date
+                    normal="2018">2018</date>. Depuis <date normal="2008">2008</date>, <persname
+                    normal="Bailly, Maud">Maud Bailly</persname> est également enseignante en
+                gestion, management public et économie numérique. </p>
+
+        </bioghist>
+
+        <appraisal>
+           
+            <p>Issu de la fusion du versement de <persname normal="Salzmann, Bernard">Bernard
+                    Salzmann</persname> et des archives de <persname normal="Bailly, Maud">Maud
+                    Bailly</persname>, ce versement se compose pour l’essentiel de notes de cabinet
+                et de dossiers de réunion et d’entretien, du <persname normal="Valls, Manuel"
+                    >Premier ministre</persname> le plus souvent, ventilés à l’origine par grands
+                thèmes.</p>
+            <p> Au sein du cabinet de <persname normal="Valls, Manuel">Manuel Valls</persname>,
+                    <persname normal="Valls, Manuel">Premier ministre</persname>, le pôle Economie,
+                finances, fiscalité, comptes publics et entreprises s’organisait de la façon
+                suivante : </p>
+        <!-- La liste chronologique semble la balise la plus adaptée ici -->
+            <chronlist>
+                <head>Chef de pôle</head>
+                <chronitem>
+                    <date normal="201404/201505">d’avril 2014 à juillet 2015</date>
+                    <event><persname normal="Salzmann, Bernard">Bernard Salzmann</persname>,
+                        conseiller économie, finances, entreprises</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201505/201612">de mai 2015 à décembre 2016</date>
+                    <event><persname normal="Bailly, Maud">Maud Bailly</persname>, conseillère
+                        économie, finances, entreprises</event>
+                </chronitem>
+            </chronlist>
+
+            <chronlist>
+                <head>Conseillers</head>
+                <chronitem>
+                    <date normal="201404/201507">d’avril 2014 à juillet 2015</date>
+                    <event><persname normal="Salzmann, Bernard">Bernard Salzmann</persname>,
+                        conseiller économie, finances, entreprises</event>
+                </chronitem>
+                <!-- Décision de tout mettre au même niveau ici -->
+                <chronitem>
+                    <date normal="201404/201507">d’avril 2014 à juillet 2015</date>
+                    <event><persname normal="Philbert, Florence">Florence
+                        Philbert</persname>,conseillère comptes publics</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201507/201612">de juillet 2015 à décembre 2016</date>
+                    <event><persname normal="Godefroy, Stanislas">Stanislas
+                        Godefroy</persname>,conseiller comptes publics</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201404/201612">d’avril 2014 à décembre 2016</date>
+                    <event><persname normal="Brédillot, Frédéric"/>Frédéric Brédillot, conseiller
+                        fiscalité et prélèvements obligatoires</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201404/201612">d’avril 2014 à décembre 2016</date>
+                    <event><persname normal="Audenis, Cédric">Cédric Audenis</persname>, conseiller
+                        macro-économie</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201404/201602">d’avril 2014 à février 2016</date>
+                    <event><persname normal="Dessillons, Sébastien">Sébastien Dessillons</persname>,
+                        conseiller entreprises, affaires industrielles</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201601/201612">de janvier à décembre 2016</date>
+                    <event><persname normal="Bonenfant, Romain">Romain
+                        Bonenfant</persname>,conseiller entreprises, affaires industrielles</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201404/201607">d’avril 2014 à juillet 2016</date>
+                    <event><persname normal="Pellet, Jérémie">Jérémie Pellet</persname>, conseiller
+                        financement de l’économie,</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201607/201612">de juillet à décembre 2016</date>
+                    <event><persname normal="Thiery, Marianne">Marianne
+                        Thiery</persname>,conseillère financement de l’économie</event>
+                </chronitem>
+            </chronlist>
+
+            <chronlist>
+                <head>Conseillers techniques</head>
+                <chronitem>
+                    <date normal="201404/201511">d’avril 2014 à octobre 2015</date>
+                    <event><persname normal="Serre, Marc-Henri">Marc-Henri
+                        Serre</persname>,conseiller technique budget</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201511/201612">d’octobre 2015 à décembre 2016</date>
+                    <event><persname normal="Cristia, Vincent">Vincent Cristia</persname>,conseiller
+                        technique budget</event>
+                </chronitem>
+                <chronitem>
+                    <date normal="201407/201612">de juillet 2014 à décembre 2016</date>
+                    <event><persname normal="Faure, Georges-Etienne">Georges-Étienne
+                            Faure</persname>, conseiller technique numérique</event>
+                </chronitem>
+            </chronlist>
+
+            <p>
+                <!-- Suite de l'appraisal -->
+                <!-- Un encodage a été fait des choses mises en exergue par les auteurs de l'IR (italique...) -->
+                <!-- Il a été décidé d'encoder les abréviations avec leur résolution (l'utilisateur peut alors chercher avec les deux formes) -->
+                Il convient de signaler
+                également l’implication forte de Véronique Bédague-Hamilius, directrice du cabinet
+                du <persname normal="Valls, Manuel">Premier ministre</persname>, dans les dossiers
+                économiques du mandat de <persname normal="Valls, Manuel">Manuel Valls</persname>.
+                Dans un souci d’intelligibilité et de concision, ce versement s’organise en trois
+                grandes parties : le fonctionnement du cabinet, les finances publiques et la
+                politique économique. Afin de tenir compte de la double provenance des documents
+                constitutifs de ce versement, le fonctionnement du cabinet se subdivise en deux
+                parties, correspondant aux dossiers généraux de <persname normal="Salzmann, Bernard"
+                    >Bernard Salzmann</persname> d’une part, et de <persname normal="Bailly, Maud"
+                    >Maud Bailly</persname> d’autre part. De façon inhabituelle, ces dossiers
+                généraux ne sont pas des minutiers chronologiques, mais des collections de lettres,
+                notes et notes de cabinet émanant pour la plupart des conseillers techniques,
+                centralisées et visées par le conseiller chef de pôle. Ce premier ensemble est
+                complété dans les deux cas par une collection de dossiers de réunion et d’entretien,
+                dont chacun a été décrit afin de mieux rendre compte des activités des conseillers.
+                À l’instar des dossiers généraux, les <emph render="italic">finances
+                    publiques</emph> distinguent d’une part un dossier général de suivi et d’autre
+                part une collection d’entretiens et de réunions. Le thème principal de cette partie
+                est la préparation du budget, formalisée par les projets de loi de finances, pour
+                    <date normal="2016">2016</date> et <date normal="2017">2017</date>, dans le
+                contexte très contraint du redressement des finances publiques et de la maîtrise de
+                l’endettement. Les fréquents entretiens avec <persname normal="Sapin, Michel">Michel
+                    Sapin</persname>,ministre des Finances et des comptes publics, et <persname
+                    normal="Eckert, Christian">Christian Eckert</persname>,secrétaire d’État chargé
+                du Budget, mais aussi les autres membres du gouvernement, rendent compte de la
+                difficulté des négociations et de la faiblesse de la marge de manœuvre pour réaliser
+                les objectifs politiques du gouvernement. La <emph render="italic">politique
+                    économique</emph> regroupe sous ce terme six sous-parties, qui correspondent à
+                six pans de l’action gouvernementale, classées du général au particulier. Comme
+                indiqué précédemment, chaque partie comporte un dossier général et une collection
+                d’entretiens et de réunions. En ce qui concerne l’<emph render="italic">Union
+                    européenne</emph> tout d’abord, les sujets majeurs sont les échanges du
+                gouvernement avec la Commission européenne concernant le redressement des finances
+                publiques, dans le cadre notamment de la procédure de surveillance pour déficit
+                excessif engagée contre la France, et la situation – ainsi que l’élaboration du plan
+                d’aide – de la Grèce. Un des rares dossiers thématiques du versement est consacré
+                aux conséquences du référendum sur l'appartenance du Royaume-Uni à l'Union
+                européenne de juin 2016 et au choix du pays de quitter l’Union (<subject>Brexit</subject>). La <emph
+                    render="italic">modernisation et la réforme de l’État</emph> détaillent diverses
+                mesures, comme la réforme de la Dotation globale de fonctionnement (<abbr
+                    expan="Dotation globale de fonctionnement">DGF</abbr>), la création de la
+                Direction des achats de l’État ou encore le projet d’instauration du prélèvement à
+                la source de l’impôt sur le revenu. Le <emph render="italic">financement de
+                    l’économie et l’investissement public</emph> désignent l’ensemble des mesures
+                qui visent à soutenir et développer l’activité économique, par l’intermédiaire
+                notamment du renforcement de la compétitivité des entreprises et de l’attractivité
+                de la France. Parmi elles, on peut citer la loi du <date normal="20150806">6 août
+                    2015</date> pour la croissance, l'activité et l'égalité des chances économiques,
+                dite loi Macron, ainsi que le projet de loi « Nouvelles opportunités économiques »
+                dit Macron 2 et finalement non abouti, dont certains dispositions ont été reprise
+                dans la loi du <date normal="20161209">9 décembre 2016</date> relative à la
+                transparence, à la lutte contre la corruption et à la modernisation de la vie
+                économique, dite loi Sapin 2, ou encore la mise en œuvre du Programme
+                d’investissements d’avenir (<abbr expan="Programme d’investissements d’avenir"
+                    >PIA</abbr>). En miroir de ce que l’on peut observer dans la partie « finances
+                publiques », les entretiens avec <persname normal="Macron, Emmanuel">Emmanuel
+                    Macron</persname>,ministre de l’Économie, de l’industrie et du numérique, sont
+                très fréquents. En ce qui concerne les <emph render="italic">entreprises</emph>, les
+                généralités comportent deux sous-dossiers consacrés à la réforme du crédit d'impôt
+                pour la compétitivité et l'emploi (<abbr
+                    expan="crédit d'impôt pour la compétitivité et l'emploi">CICE</abbr>) d’une
+                part, et aux mesures spécifiques en faveur des très petites entreprises (<abbr expan="très petites entreprises">TPE</abbr>) et des
+                petites et moyennes entreprises (<abbr expan="petites et moyennes entreprises"
+                    >PME</abbr>). La collection des entretiens et réunions fait état des nombreux
+                échanges avec les dirigeants de grandes entreprises françaises et étrangères. Parmi
+                les sujets saillants, figurent la « refondation de la filière nucléaire française »,
+                qui requiert le redressement d’<corpname>Areva</corpname> et son rapprochement d’
+                    <corpname>Electricité de France</corpname> (<abbr expan="Electricité de France"
+                    >EDF</abbr>), ou encore la situation du groupe <corpname>Alstom</corpname> à
+                Belfort (Territoire-de-Belfort). On peut relever la fréquence des entretiens de
+                    <persname normal="Bailly, Maud">Maud Bailly</persname>, avec <persname
+                    normal="Vial, Martin">Martin Vial</persname>,Commissaire aux participations de
+                l’État, chargé de veiller aux investissements de l’État actionnaire dans des
+                entreprises qu’il juge stratégiques. En matière d’<emph render="italic">économie
+                    numérique</emph>, le sujet principal concerne l’élaboration et la mise en œuvre
+                de la stratégie numérique du gouvernement, concrétisée en particulier par la loi
+                pour une République numérique, promulguée le 7 octobre 2016 (loi Lemaire), et le
+                développement de l’économie collaborative, conformément à la mission confiée à
+                    <persname normal="Terrasse, Pascal">Pascal Terrasse</persname>,député de
+                l’Ardèche, en <date normal="201510">octobre 2015</date>. Enfin, le dernier dossier
+                consacré au <emph render="italic">tourisme</emph> est peu développé. La
+                préoccupation majeure porte sur les conséquences des attentats de novembre 2015 et
+                sur les moyens d’aider ce secteur d’activité. Les très nombreux dossiers d’entretien
+                et de réunion de ce versement offrent une description fine des activités du pôle
+                économique, aussi bien au niveau du <persname normal="Valls, Manuel">Premier
+                    ministre</persname> et de la présidence de la République que du cabinet. Ils
+                constituent à ce titre une source d’information de premier plan pour éclairer les
+                enjeux et les politiques économiques de cette période. Les éliminations ont porté
+                sur les doubles, les publications et les documents conservés par ailleurs. </p>
+
+        </appraisal>
+
+        <relatedmaterial>
+            <!-- Unités archivistiques non-présentes dans le fonds mais pouvant renseigner -->
+            <head>Sources complémentaires</head>
+            <p>
+                <!-- La balise <abbr> est interdite ici -->
+                <corpname>SCN Archives nationales</corpname> Les archives versées par les membres du
+                Pôle économie sont en attente de classement. </p>
+
+            <list>
+                <!-- Les encodages de noms de personnes sont interdits dans certaines balises -->
+                <head>Cabinet de Jean->Marc Ayrault,Premier ministre</head>
+                <item>
+                    <archref>
+                        <unitid>20150156</unitid>
+                        <unittitle>Dossiers de <persname normal="Rencki, Julien">Julien
+                                Rencki</persname>et <persname normal="Chabert, Guillaume">Guillaume
+                                Chabert</persname>,conseillers successifs pour l’économie, les
+                            finances et les entreprises.</unittitle>
+                        <unitdate normal="2012/2014">2012-2014</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20150201</unitid>
+                        <unittitle>Dossiers de <persname normal="Namias, Nicolas">Nicolas
+                                Namias</persname>,conseiller technique pour le financement de
+                            l’économie, les entreprises et les affaires économiques
+                            internationales.</unittitle>
+                        <unitdate normal="2012/2014">2012-2014</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20150202</unitid>
+                        <unittitle>Dossiers de <persname normal="Bachelier-Iltis, Pierre">Pierre
+                                Bachelier-Iltis</persname>, conseiller technique pour les affaires
+                            industrielles.</unittitle>
+                        <!-- Faute de frappe dans l'original -->
+                        <unitdate>2012-201?</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20150203</unitid>
+                        <unittitle>Dossiers de <persname normal="Dell, Fabien">Fabien
+                                Dell</persname>,conseiller technique pour la macroéconomie et la
+                            zone euro puis pour la stratégie économique.</unittitle>
+                        <unitdate normal="2012/2014">2012-2014</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20150239</unitid>
+                        <unittitle>Dossiers de <persname normal="de Beer, Philippe-Emmanuel">Philippe-Emmanuel de Beer</persname>, conseiller pour la
+                            fiscalité et les prélèvements obligatoires de juin 2012 à mars
+                            2014.</unittitle>
+                        <unitdate normal="2012/2014">2012-2014</unitdate>
+                    </archref>
+                </item>
+            </list>
+            <list>
+                <head>Cabinet de François Fillon, Premier ministre</head>
+                <item>
+                    <archref>
+                        <unitid>20140596</unitid>
+                        <unittitle>Dossiers de <persname normal="Barbat-Layani, Marie-Anne">Marie-Anne Barbat-Layani</persname>, directrice-adjointe du
+                            cabinet (économie, finances et industrie, art.1-12).</unittitle>
+                        <unitdate normal="2010/2012">2010-2012</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20130373</unitid>
+                        <!-- Mettre dates -->
+                        <unittitle>Dossiers de <persname normal="Ravalet, Philippe">Philippe
+                                Ravalet</persname>,conseiller technique pour la macroéconomie et
+                            l'emploi de juin 2007 à juin 2008 et de Clotilde L’Angevin, chargée de
+                            mission puis conseillère technique pour la macroéconomie et les
+                            prévisions économiques de juillet 2008 à juin 2009.</unittitle>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20144694</unitid>
+                        <unittitle>Dossiers de <persname normal="Demaille, Franck">Franck
+                                Demaille</persname>et <persname normal="Launay, Romain">Romain
+                                Launay</persname>,conseillers techniques pour le financement des
+                            entreprises, les petites et moyennes entreprises, l’artisanat, les
+                            services, la concurrence, la consommation et le tourisme, respectivement
+                            de <date normal="200706/200911">juin 2007 à novembre 2009</date> et de
+                                <date normal="200911/201201">novembre 2009 à janvier
+                            2012</date>.</unittitle>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20144694</unitid>
+                        <unittitle>Dossiers de <persname normal="Tomarchio, Ferdinand">Ferdinand
+                                Tomarchio</persname>,conseiller technique pour l’industrie, les
+                            services et la compétitivité de <date normal="201202/201205">février à
+                                mai 2012</date>.</unittitle>
+                    </archref>
+                </item>
+            </list>
+            <list>
+                <head>Cabinet de Dominique de Villepin, Premier ministre</head>
+                <item>
+                    <archref>
+                        <unitid>20120100</unitid>
+                        <unittitle>Dossiers d’<persname normal="Demarolle, Alain">Alain
+                                Demarolle</persname>,conseiller économique et financier de juin 2005
+                            à mars 2007, de <persname normal="Lemoine, Mathilde">Mathilde
+                                Lemoine</persname>,conseillère technique pour la macroéconomie et la
+                            fiscalité de juin 2005 à août 2006 et d'<persname normal="Cuny, Olivier"
+                                >Olivier Cuny</persname>,conseiller technique pour la macroéconomie
+                            et les affaires économiques internationales de septembre 2006 à mai
+                            2007.</unittitle>
+                        <unitdate normal="2005/2007">2005-2007</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20120101</unitid>
+                        <unittitle>Dossiers d'<persname normal="Quinet, Alain">Alain
+                                Quinet</persname>,directeur-adjoint du cabinet pour les affaires
+                            économiques de juin 2005 à avril 2007.</unittitle>
+                        <unitdate normal="2003/2007">2003-2007</unitdate>
+                    </archref>
+                </item>
+                <item>
+                    <archref>
+                        <unitid>20120004</unitid>
+                        <unittitle>Dossiers d’<persname normal="Cuny, Olivier">Olivier
+                                Cuny</persname>,conseiller technique pour la macroéconomie et les
+                            affaires économiques internationales (art. 14-15).</unittitle>
+                        <unitdate normal="2002/2007">2002-2007</unitdate>
+                    </archref>
+                </item>
+
+            </list>
+        </relatedmaterial>
+
+        <arrangement>
+            <!-- Balise indiquant les grande lignes du plan de classement -->
+            <head>Sommaire</head>
+            <list>
+                <!-- Décision de mettre des deux points à la place des séries de points de l'original pour faciliter un éventuel traitement automatique des données -->
+                <item>FONCTIONNEMENT DU CABINET : ART. 1-3 <list>
+                        <item><persname normal="Salzmann, Bernard">Bernard Salzmann</persname> :
+                            Art. 1-2</item>
+                        <item><persname normal="Bailly, Maud">Maud Bailly</persname> : Art. 2
+                            (suite)-3</item>
+                    </list>
+                </item>
+                <item>FINANCES PUBLIQUES : ART. 3 (suite)-4 </item>
+                <item>POLITIQUE ÉCONOMIQUE : ART. 5-11 <list>
+                        <item>Union européenne : Art. 5</item>
+                        <item>Modernisation et réforme de l’État : Art. 6</item>
+                        <item>Financement de l’économie et investissement public : Art. 7-8</item>
+                        <item>Entreprises : Art. 8 (suite)-10</item>
+                        <item>Économie numérique : Art. 10 (suite)-11</item>
+                        <item>Tourisme : Art. 11 (suite)</item>
+                    </list>
+                </item>
+            </list>
+        </arrangement>
+
+
+        <!-- ********************************************** Début de la descente dans la description en-dessous du niveau fonds. Seules les pages 13-14 étaient à décrire de façon complète ********************************************** -->
+   
+        <dsc>
+            <!-- Element fonds englobant tout le reste (rappel) -->
+            <c level="fonds">
+                <did>
+                    <unittitle>REPERTOIRE<lb/> COTE CAC : 20180515<lb/>CABINET DE<persname normal="Valls, Manuel">Manuel Valls</persname>,
+                        Premier ministre DE 2014 Ā 2016.</unittitle>
+                    <unitid type="cote">AN-2018-0515-1/AN-2018-0515-11</unitid>
+                </did>
+                <!-- Description sommaire des éléments avant les pages à encoder -->
+                <!-- Il a été décidé de retenir l'élément "sous-fonds" pour les 1eres subdivisions en-dessous du niveau "fonds" (fonctionnement, finances publiques et politique économique). En effet, celles-ci peuvent être considérées comme représentant organiquement les fonctions d'un conseiller économique du cabinet du Premier ministre. 
+                
+                Pour le niveau d'en-dessous, il a été choisi de retenir l'élément "record group". En effet, ces record groups de 1er niveau sont de regroupements thématiques (ou par personne) faits par les archivites et ne représentent pas des fonctions organiques. 
+                
+                Pour les éléments du niveau d'en-dessous, il a été choisi de retenir l'élément "série". En effet, on peut considérer que la rédaction de notes ou la préparation d'entretiens représentent organiquement les activités d'un cabinet ministériel pour chaque thème défini par les archivites. On peut penser que ces séries représentent des typologies d'activité pour le conseiller.
+                
+                L'élément d'en-dessous a été qualifié de record group. En-effet, il s'agit de regroupements artificiels faits par les archivistes (souvent par année), qui sont appelés "articles" dans l'IR sous "Word". Il s'agit de l'élément qui porte la côte. 
+                
+                Ces "record group" de 2e niveau sont subdivisés avec "item". Ceux-ci ne semble pas correspondre à l'article, au sens archivistique français, puisqu'ils ne semblent pas commandables individuellement (une cote rassemble en effet plusieurs "items"). Ils sont l'élément de description le plus fin. Dans l'IR source, on trouve pour chaque "item" des mentions typologiques. Conformément au dictionnaire des balises, il a été choisi de les réprésenter par <physdesc> / <genreform>. 
+                
+                -->
+
+                <!-- On aura deux types de "unitid" selon le niveau hiérarchique : le numéro donné dans l'IR (Art. X.Y) et leur cote -->
+
+                <c level="subfonds">
+                    <did>
+                        <unitid>Art. 1-3</unitid>
+                        <unittitle>Fonctionnement du cabinet</unittitle>
+                        <unitid type="cote">AN-2018-0515-1/AN-2018-0515-3</unitid>
+                    </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unittitle>Bernard Salzmann</unittitle>
+                        </did>
+                        <c level="series">
+                            <did>
+                                <unittitle>Notes</unittitle>
+                            </did>
+                        </c>
+                        <c level="series">
+                            <did>
+                                <unittitle>Entretiens et réunions</unittitle>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unittitle>Maud Bailly</unittitle>
+                        </did>
+                        <c level="series">
+                            <did>
+                                <unittitle>Notes</unittitle>
+                            </did>
+                        </c>
+                        <!-- Début de l'encodage fin -->
+                        <!-- La normalisation des dates a été faite de manière automatique -->
+                        <c level="series">
+                            <did>
+                                <unittitle>Entretiens et réunions</unittitle>
+                            </did>
+                            <c level="recordgrp">
+                                <did>
+                                    <unittitle>Art. 2 (suite) : 2015</unittitle>
+                                    <unitid type="cote">AN-2018-0515-2 </unitid>
+                                </did>
+                                <c level="item">
+                                    <did>
+                                        <!-- COMPLETER NORMALISATION DES DATES -->
+                                        <unitdate normal="201503/201505">03-2015/05-2015</unitdate>
+                                        <physdesc>
+                                            <!-- Correspond à la typologie documentaire dans la pratique archivitique française -->
+                                            <genreform> ORDRE DU JOUR / NOTE MANUSCRITE </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Participation de<persname normal="Bailly, Maud">Maud Bailly</persname>, conseillère économie,
+                                            finances, entreprises au cabinet du Premier ministre,
+                                           <persname normal="Valls, Manuel">Manuel Valls</persname>, à la réunion de cabinet consacrée à
+                                            l'apprentissage, le 7 mai 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201410/201505">10-2014/05-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET / FICHES </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de la participation de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, à la réunion consacrée à la réforme de l'impôt
+                                            sur le revenu, à la présidence de la République, le 26
+                                            mai 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201410/201505">10-2014/05-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGES / NOTES DE CABINET / NOTES / FICHES
+                                                DE SYNTHESE </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation et déroulement de la réunion de ministres
+                                            consacrée à la crise du secteur de l'élevage porcin, le
+                                            18 août 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201506/201508">06-2015/08-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET / TABLEAUX / GRAPHIQUES
+                                            </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de la réunion de ministres présidée par
+                                           <persname normal="Valls, Manuel">Manuel Valls</persname>, Premier ministre, consacrée à la fiscalité
+                                            des énergies, le 24 août 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201509">09-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGES / NOTES DE CABINET / GRAPHIQUES /
+                                                TABLEAUX </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation et déroulement de la participation de Manuel
+                                            Valls, Premier ministre, à la réunion consacrée aux
+                                            finances publiques, à la présidence de la République, le
+                                            31 août 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201509">09-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTE DE CABINET / MESSAGE / NOTE MANUSCRITE
+                                                / DOCUMENT DE PRESENTATION / FICHE </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de la participation de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, à la réunion de ministres consacrée au budget
+                                            2016, à la présidence de la République, le 9 septembre
+                                            2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201510">10-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> COMMUNIQUE DE PRESSE / PROJETS DE COMMUNIQUE
+                                                / NOTE DE CABINET </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation et déroulement de la réunion de ministres
+                                            présidée par<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier ministre, consacrée à
+                                            la fiscalité des carburants, le 14 octobre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201510/201511">10-2015/11-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGE / NOTE DE CABINET / FICHE
+                                            </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation et déroulement de la réunion de cabinet
+                                            consacrée à la fiscalité locale des retraités, le 1er
+                                            novembre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201511/201601">11-2015/01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGES / ARGUMENTAIRE / NOTE DE CABINET /
+                                                LETTRE </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation et déroulement de la réunion de cabinet
+                                            consacrée à l'examen de l'amendement présenté par
+                                            <persname normal="Muet, Pierre-Alain">Pierre-Alain Muet</persname>, députe du Rhône, et <persname normal="Ayrault, Jean-Marc">Jean-Marc
+                                            Ayrault</persname>, député de Loire-Atlantique, dans le cadre du
+                                            projet de loi de finances pour 2016, le 10 novembre
+                                            2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <!-- Début page 14 -->
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201511/201512">11-2015/12-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET / NOTE / FICHE /
+                                                GRAPHIQUE</genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de l'entretien de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, avec <persname normal="El Khomri,  Myriam">Myriam El Khomri</persname>, ministre du Travail, de
+                                            l'emploi, de la formation professionnelle et du dialogue
+                                            social,<persname normal="Macron, Emmanuel"> Emmanuel Macron</persname>, ministre de l'Économie, de
+                                            l'industrie et du numérique, et<persname normal="Sapin, Michel"> Michel Sapin</persname>, ministre
+                                            des Finances et des comptes publics, le 4 décembre
+                                            2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201511/201512">11-2015/12-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET</genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de l'entretien de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, avec le professeur<persname normal="Cohen, Daniel">Daniel Cohen</persname>, économiste,
+                                            le 8 décembre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201511/201512">11-2015/12-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET / FICHE / TABLEAU
+                                                RECAPITULATIF</genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de la réunion de travail présidée par Manuel
+                                            Valls, Premier ministre, consacrée à la transformation
+                                            numérique de l'économie, le 8 décembre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201511/201512">11-2015/12-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET / FICHE / TABLEAU
+                                                RECAPITULATIF</genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de la réunion de travail présidée par Manuel
+                                            Valls, Premier ministre, consacrée à la transformation
+                                            numérique de l'économie, le 8 décembre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201512/201601">12-2015/01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGES / TABLEAU RECAPITULATIF / LETTRE /
+                                                NOTES DE CABINET</genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation et déroulement de la réunion de cabinet
+                                            consacrée à la situation conjoncturelle de l'emploi, le
+                                            16 décembre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201512">12-2015</unitdate>
+                                        <physdesc>
+                                            <genreform> NOTES DE CABINET / COMMENTAIRE / DOCUMENT DE
+                                                PRESENTATION</genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de la participation de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, à la réunion consacrée au prélèvement à la
+                                            source de l'impôt sur le revenu, à la présidence de la
+                                            République, le 21 décembre 2015.</p>
+                                    </scopecontent>
+                                </c>
+                            </c>
+                            <c level="recordgrp">
+                                <did>
+                                    <unittitle>Art. 3: 2016</unittitle>
+                                    <unitid type="cote">AN-2018-0515-3 </unitid>
+                                </did>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201512/201601">12-2015/01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> DOCUMENT DE TRAVAIL / NOTE DE CABINET /
+                                                TABLEAUX </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de l'entretien de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, avec<persname normal="Schweitzer, Louis">Louis Schweitzer</persname>, Commissaire général à
+                                            l'investissement, le 4 janvier 2016.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="20160105">05-01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> ORDRE DU JOUR </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de l'entretien de<persname normal="Bailly, Maud">Maud Bailly</persname>, conseillère
+                                            économie, finances, entreprises au cabinet du Premier
+                                            ministre,<persname normal="Valls, Manuel">Manuel Valls</persname>, avec<persname normal="Vial, Martin">Martin Vial</persname>, commissaire
+                                            aux participations de l'Etat, le 5 janvier 2016.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="20160111">11-01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGES / DOCUMENT DE PRESENTATION
+                                            </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de l'entretien de<persname normal="Bailly, Maud">Maud Bailly</persname>, conseillère
+                                            économie, finances, entreprises au cabinet du Premier
+                                            ministre,<persname normal="Valls, Manuel">Manuel Valls</persname>, avec<persname normal="Bazin, Paul">Paul Bazin</persname>, inspecteur
+                                            général des finances, concernant la mission de
+                                            modernisation de l'action publique sur le logement
+                                            locatif meublé, dite mission Airbnb, le 11 janvier
+                                            2016.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201601">01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> PROGRAMME / NOTES DE CABINET / FICHES /
+                                                ELEMENTS DE LANGAGE / PLAN DE TABLE / LISTES DES
+                                                PARTICIPANTS / BIOGRAPHIES </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation du voyage de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier ministre,
+                                            à l'occasion du Forum économique mondial, à <geogname>Davos
+                                            (Suisse)</geogname> les 20 et 21 janvier 2016.</p>
+                                    </scopecontent>
+                                </c>
+                                <c level="item">
+                                    <did>
+                                        <unitdate normal="201601">01-2016</unitdate>
+                                        <physdesc>
+                                            <genreform> MESSAGE / NOTE DE CABINET </genreform>
+                                        </physdesc>
+                                    </did>
+                                    <scopecontent>
+                                        <p>Préparation de l'entretien de<persname normal="Valls, Manuel">Manuel Valls</persname>, Premier
+                                            ministre, avec<persname normal="Bouygues, Martin">Martin Bouygues</persname>, président-directeur
+                                            général du <corpname>groupe Bouygues</corpname>, le 28 janvier 2016.</p>
+                                    </scopecontent>
+                                </c>
+                                <!-- Fin de la page 14 -->
+                            </c>
+                        </c>
+                    </c>
+                </c>
+                <!-- Fin du fonds -->
+            </c>
+        </dsc>
+    </archdesc>
+</ead>
